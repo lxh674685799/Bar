@@ -31,6 +31,7 @@
 		F5ACD3C01A8C9E7500603BB1 /* AppUtiles.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ACD3BF1A8C9E7500603BB1 /* AppUtiles.m */; };
 		F5ACD3C41A8CA04800603BB1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ACD3C31A8CA04800603BB1 /* User.m */; };
 		F5ACD3C61A8CA70500603BB1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ACD3C51A8CA70500603BB1 /* AddressBook.framework */; };
+		F5F6BB591AA1A5B200C9B8B7 /* new.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F6BB581AA1A5B200C9B8B7 /* new.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,8 @@
 		F5ACD3C21A8CA04800603BB1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		F5ACD3C31A8CA04800603BB1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		F5ACD3C51A8CA70500603BB1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F5F6BB571AA1A5B200C9B8B7 /* new.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = new.h; sourceTree = "<group>"; };
+		F5F6BB581AA1A5B200C9B8B7 /* new.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = new.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				F5ACD37E1A8C794E00603BB1 /* Images.xcassets */,
 				F5ACD3801A8C794E00603BB1 /* LaunchScreen.xib */,
 				F5ACD3711A8C794E00603BB1 /* Supporting Files */,
+				F5F6BB571AA1A5B200C9B8B7 /* new.h */,
+				F5F6BB581AA1A5B200C9B8B7 /* new.m */,
 			);
 			path = Bar;
 			sourceTree = "<group>";
@@ -398,6 +403,7 @@
 				F5ACD39D1A8C815100603BB1 /* MyNavigationBar.m in Sources */,
 				F5ACD3A61A8C837900603BB1 /* BaseViewController.m in Sources */,
 				F5ACD39E1A8C815100603BB1 /* UserDefaultsUtils.m in Sources */,
+				F5F6BB591AA1A5B200C9B8B7 /* new.m in Sources */,
 				F5ACD3AD1A8C875B00603BB1 /* ScanBarViewController.m in Sources */,
 				F5ACD3BD1A8C9BC000603BB1 /* QRCodeGenerator.m in Sources */,
 				F5ACD3AA1A8C83DC00603BB1 /* BuildBarViewController.m in Sources */,
