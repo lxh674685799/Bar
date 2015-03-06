@@ -31,7 +31,7 @@
 
 -(void)initView{
     UILabel *lable = [[UILabel alloc]initWithFrame:CGRectMake(5, NavHeight, 80, 40)];
-    lable.text = @"姓名:";
+    lable.text = NSLocalizedString(@"name", nil);
     UILabel *lable1 = [[UILabel alloc]initWithFrame:CGRectMake(5, NavHeight+40, 80, 40)];
     lable1.text = @"电话:";
     [self.view addSubview:lable];

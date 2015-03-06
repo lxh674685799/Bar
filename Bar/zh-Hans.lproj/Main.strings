@@ -1,0 +1,18 @@
+
+/* Class = "IBUITabBarItem"; title = "扫描二维码"; ObjectID = "3Bb-4j-jUS"; */
+"3Bb-4j-jUS.title" = "扫描二维码CH";
+
+/* Class = "IBUITabBarItem"; title = "融云聊天"; ObjectID = "Kfi-aa-1yt"; */
+"Kfi-aa-1yt.title" = "融云聊天CH";
+
+/* Class = "IBUINavigationItem"; title = "扫描二维码"; ObjectID = "MKA-i5-GWx"; */
+"MKA-i5-GWx.title" = "扫描二维码CH";
+
+/* Class = "IBUITabBarItem"; title = "生成二维码"; ObjectID = "RT4-e3-1Yf"; */
+"RT4-e3-1Yf.title" = "生成二维码CH";
+
+/* Class = "IBUINavigationItem"; title = "融云聊天"; ObjectID = "frk-Xb-oxs"; */
+"frk-Xb-oxs.title" = "融云聊天CH";
+
+/* Class = "IBUINavigationItem"; title = "生成二维码"; ObjectID = "ywR-2k-fnW"; */
+"ywR-2k-fnW.title" = "生成二维码CH";
