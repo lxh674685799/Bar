@@ -10,7 +10,6 @@
 		D790AFCDF2E5D848C3795018 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFA7DC20C6178D50956DE3E /* libPods.a */; };
 		F5ACD3741A8C794E00603BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ACD3731A8C794E00603BB1 /* main.m */; };
 		F5ACD3771A8C794E00603BB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ACD3761A8C794E00603BB1 /* AppDelegate.m */; };
-		F5ACD37A1A8C794E00603BB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ACD3791A8C794E00603BB1 /* ViewController.m */; };
 		F5ACD37D1A8C794E00603BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5ACD37B1A8C794E00603BB1 /* Main.storyboard */; };
 		F5ACD37F1A8C794E00603BB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ACD37E1A8C794E00603BB1 /* Images.xcassets */; };
 		F5ACD3821A8C794E00603BB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5ACD3801A8C794E00603BB1 /* LaunchScreen.xib */; };
@@ -31,6 +30,29 @@
 		F5ACD3C01A8C9E7500603BB1 /* AppUtiles.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ACD3BF1A8C9E7500603BB1 /* AppUtiles.m */; };
 		F5ACD3C41A8CA04800603BB1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ACD3C31A8CA04800603BB1 /* User.m */; };
 		F5ACD3C61A8CA70500603BB1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ACD3C51A8CA70500603BB1 /* AddressBook.framework */; };
+		F5F7E84D1AA8063200B493DE /* XHChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F7E84A1AA8063200B493DE /* XHChatListViewController.m */; };
+		F5F7E84E1AA8063200B493DE /* XHChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F7E84C1AA8063200B493DE /* XHChatViewController.m */; };
+		F5F7E8511AA8066100B493DE /* XHLocationPickerBaiduMapDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F7E8501AA8066100B493DE /* XHLocationPickerBaiduMapDataSource.m */; };
+		F5F7E8551AA8486700B493DE /* RTHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F7E8541AA8486700B493DE /* RTHttpClient.m */; };
+		F5F7E8581AA84B5300B493DE /* BaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F7E8571AA84B5300B493DE /* BaseHandler.m */; };
+		F5F7E85C1AA84C3000B493DE /* NetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F7E85B1AA84C3000B493DE /* NetHandler.m */; };
+		F5FE78BE1AA58AA000B9E3E9 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FE78BD1AA58AA000B9E3E9 /* ChatViewController.m */; };
+		F5FE78C41AA595CF00B9E3E9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78C21AA595CF00B9E3E9 /* AudioToolbox.framework */; };
+		F5FE78C51AA595CF00B9E3E9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78C31AA595CF00B9E3E9 /* CoreAudio.framework */; };
+		F5FE78C71AA595E700B9E3E9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78C61AA595E700B9E3E9 /* CFNetwork.framework */; };
+		F5FE78CC1AA5960300B9E3E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78C81AA5960300B9E3E9 /* CoreGraphics.framework */; };
+		F5FE78CD1AA5960300B9E3E9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78C91AA5960300B9E3E9 /* CoreImage.framework */; };
+		F5FE78CE1AA5960300B9E3E9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78CA1AA5960300B9E3E9 /* CoreLocation.framework */; };
+		F5FE78CF1AA5960300B9E3E9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78CB1AA5960300B9E3E9 /* CoreTelephony.framework */; };
+		F5FE78D11AA5960E00B9E3E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78D01AA5960E00B9E3E9 /* Foundation.framework */; };
+		F5FE78D31AA5962700B9E3E9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78D21AA5962700B9E3E9 /* libc++.dylib */; };
+		F5FE78D61AA5964000B9E3E9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78D41AA5964000B9E3E9 /* libsqlite3.dylib */; };
+		F5FE78D71AA5964000B9E3E9 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78D51AA5964000B9E3E9 /* libstdc++.dylib */; };
+		F5FE78D91AA5964A00B9E3E9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78D81AA5964A00B9E3E9 /* libz.dylib */; };
+		F5FE78DB1AA5965300B9E3E9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78DA1AA5965300B9E3E9 /* MapKit.framework */; };
+		F5FE78DD1AA5965D00B9E3E9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78DC1AA5965D00B9E3E9 /* OpenGLES.framework */; };
+		F5FE78DF1AA5967100B9E3E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78DE1AA5967100B9E3E9 /* SystemConfiguration.framework */; };
+		F5FE78E11AA5967900B9E3E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FE78E01AA5967900B9E3E9 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +74,6 @@
 		F5ACD3731A8C794E00603BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5ACD3751A8C794E00603BB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5ACD3761A8C794E00603BB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F5ACD3781A8C794E00603BB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F5ACD3791A8C794E00603BB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F5ACD37C1A8C794E00603BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5ACD37E1A8C794E00603BB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F5ACD3811A8C794E00603BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -88,6 +108,36 @@
 		F5ACD3C21A8CA04800603BB1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		F5ACD3C31A8CA04800603BB1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		F5ACD3C51A8CA70500603BB1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F5F7E8491AA8063200B493DE /* XHChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHChatListViewController.h; sourceTree = "<group>"; };
+		F5F7E84A1AA8063200B493DE /* XHChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHChatListViewController.m; sourceTree = "<group>"; };
+		F5F7E84B1AA8063200B493DE /* XHChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHChatViewController.h; sourceTree = "<group>"; };
+		F5F7E84C1AA8063200B493DE /* XHChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHChatViewController.m; sourceTree = "<group>"; };
+		F5F7E84F1AA8066100B493DE /* XHLocationPickerBaiduMapDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLocationPickerBaiduMapDataSource.h; sourceTree = "<group>"; };
+		F5F7E8501AA8066100B493DE /* XHLocationPickerBaiduMapDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLocationPickerBaiduMapDataSource.m; sourceTree = "<group>"; };
+		F5F7E8531AA8486700B493DE /* RTHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTHttpClient.h; sourceTree = "<group>"; };
+		F5F7E8541AA8486700B493DE /* RTHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTHttpClient.m; sourceTree = "<group>"; };
+		F5F7E8561AA84B5300B493DE /* BaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHandler.h; sourceTree = "<group>"; };
+		F5F7E8571AA84B5300B493DE /* BaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHandler.m; sourceTree = "<group>"; };
+		F5F7E85A1AA84C3000B493DE /* NetHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetHandler.h; sourceTree = "<group>"; };
+		F5F7E85B1AA84C3000B493DE /* NetHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetHandler.m; sourceTree = "<group>"; };
+		F5FE78BC1AA58AA000B9E3E9 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		F5FE78BD1AA58AA000B9E3E9 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		F5FE78C21AA595CF00B9E3E9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F5FE78C31AA595CF00B9E3E9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F5FE78C61AA595E700B9E3E9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F5FE78C81AA5960300B9E3E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5FE78C91AA5960300B9E3E9 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F5FE78CA1AA5960300B9E3E9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F5FE78CB1AA5960300B9E3E9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F5FE78D01AA5960E00B9E3E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5FE78D21AA5962700B9E3E9 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		F5FE78D41AA5964000B9E3E9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F5FE78D51AA5964000B9E3E9 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		F5FE78D81AA5964A00B9E3E9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F5FE78DA1AA5965300B9E3E9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F5FE78DC1AA5965D00B9E3E9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F5FE78DE1AA5967100B9E3E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F5FE78E01AA5967900B9E3E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +145,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5ACD3C61A8CA70500603BB1 /* AddressBook.framework in Frameworks */,
+				F5FE78DF1AA5967100B9E3E9 /* SystemConfiguration.framework in Frameworks */,
+				F5FE78E11AA5967900B9E3E9 /* UIKit.framework in Frameworks */,
+				F5ACD3B11A8C87ED00603BB1 /* QuartzCore.framework in Frameworks */,
+				F5FE78DD1AA5965D00B9E3E9 /* OpenGLES.framework in Frameworks */,
+				F5FE78DB1AA5965300B9E3E9 /* MapKit.framework in Frameworks */,
+				F5FE78D91AA5964A00B9E3E9 /* libz.dylib in Frameworks */,
+				F5FE78D61AA5964000B9E3E9 /* libsqlite3.dylib in Frameworks */,
+				F5FE78D71AA5964000B9E3E9 /* libstdc++.dylib in Frameworks */,
+				F5FE78D31AA5962700B9E3E9 /* libc++.dylib in Frameworks */,
+				F5FE78D11AA5960E00B9E3E9 /* Foundation.framework in Frameworks */,
+				F5FE78CC1AA5960300B9E3E9 /* CoreGraphics.framework in Frameworks */,
+				F5FE78CD1AA5960300B9E3E9 /* CoreImage.framework in Frameworks */,
+				F5FE78CE1AA5960300B9E3E9 /* CoreLocation.framework in Frameworks */,
+				F5FE78CF1AA5960300B9E3E9 /* CoreTelephony.framework in Frameworks */,
 				F5ACD3B71A8C881F00603BB1 /* CoreMedia.framework in Frameworks */,
 				F5ACD3B51A8C880400603BB1 /* CoreVideo.framework in Frameworks */,
-				F5ACD3B31A8C87FA00603BB1 /* libiconv.dylib in Frameworks */,
-				F5ACD3B11A8C87ED00603BB1 /* QuartzCore.framework in Frameworks */,
+				F5FE78C71AA595E700B9E3E9 /* CFNetwork.framework in Frameworks */,
 				F5ACD3AF1A8C87D400603BB1 /* AVFoundation.framework in Frameworks */,
+				F5FE78C41AA595CF00B9E3E9 /* AudioToolbox.framework in Frameworks */,
+				F5FE78C51AA595CF00B9E3E9 /* CoreAudio.framework in Frameworks */,
+				F5ACD3C61A8CA70500603BB1 /* AddressBook.framework in Frameworks */,
+				F5ACD3B31A8C87FA00603BB1 /* libiconv.dylib in Frameworks */,
 				D790AFCDF2E5D848C3795018 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +193,22 @@
 		98C4D588EC84820FA423A8EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5FE78E01AA5967900B9E3E9 /* UIKit.framework */,
+				F5FE78DE1AA5967100B9E3E9 /* SystemConfiguration.framework */,
+				F5FE78DC1AA5965D00B9E3E9 /* OpenGLES.framework */,
+				F5FE78DA1AA5965300B9E3E9 /* MapKit.framework */,
+				F5FE78D81AA5964A00B9E3E9 /* libz.dylib */,
+				F5FE78D41AA5964000B9E3E9 /* libsqlite3.dylib */,
+				F5FE78D51AA5964000B9E3E9 /* libstdc++.dylib */,
+				F5FE78D21AA5962700B9E3E9 /* libc++.dylib */,
+				F5FE78D01AA5960E00B9E3E9 /* Foundation.framework */,
+				F5FE78C81AA5960300B9E3E9 /* CoreGraphics.framework */,
+				F5FE78C91AA5960300B9E3E9 /* CoreImage.framework */,
+				F5FE78CA1AA5960300B9E3E9 /* CoreLocation.framework */,
+				F5FE78CB1AA5960300B9E3E9 /* CoreTelephony.framework */,
+				F5FE78C61AA595E700B9E3E9 /* CFNetwork.framework */,
+				F5FE78C21AA595CF00B9E3E9 /* AudioToolbox.framework */,
+				F5FE78C31AA595CF00B9E3E9 /* CoreAudio.framework */,
 				F5ACD3C51A8CA70500603BB1 /* AddressBook.framework */,
 				F5ACD3B61A8C881F00603BB1 /* CoreMedia.framework */,
 				F5ACD3B41A8C880400603BB1 /* CoreVideo.framework */,
@@ -161,6 +243,8 @@
 		F5ACD3701A8C794E00603BB1 /* Bar */ = {
 			isa = PBXGroup;
 			children = (
+				F5F7E8591AA84C1100B493DE /* Handler */,
+				F5F7E8521AA8484000B493DE /* NetWork */,
 				F5ACD3C11A8CA03600603BB1 /* Model */,
 				F5ACD3A71A8C83A000603BB1 /* Controller */,
 				F5ACD3A01A8C837900603BB1 /* Base */,
@@ -168,8 +252,6 @@
 				F5ACD3971A8C810600603BB1 /* Const.h */,
 				F5ACD3751A8C794E00603BB1 /* AppDelegate.h */,
 				F5ACD3761A8C794E00603BB1 /* AppDelegate.m */,
-				F5ACD3781A8C794E00603BB1 /* ViewController.h */,
-				F5ACD3791A8C794E00603BB1 /* ViewController.m */,
 				F5ACD37B1A8C794E00603BB1 /* Main.storyboard */,
 				F5ACD37E1A8C794E00603BB1 /* Images.xcassets */,
 				F5ACD3801A8C794E00603BB1 /* LaunchScreen.xib */,
@@ -227,6 +309,8 @@
 				F5ACD3A21A8C837900603BB1 /* BaseModel.m */,
 				F5ACD3A31A8C837900603BB1 /* BaseViewController.h */,
 				F5ACD3A41A8C837900603BB1 /* BaseViewController.m */,
+				F5F7E8561AA84B5300B493DE /* BaseHandler.h */,
+				F5F7E8571AA84B5300B493DE /* BaseHandler.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -234,12 +318,15 @@
 		F5ACD3A71A8C83A000603BB1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F5F7E8471AA8063200B493DE /* Chat */,
 				F5ACD3A81A8C83DC00603BB1 /* BuildBarViewController.h */,
 				F5ACD3A91A8C83DC00603BB1 /* BuildBarViewController.m */,
 				F5ACD3AB1A8C875B00603BB1 /* ScanBarViewController.h */,
 				F5ACD3AC1A8C875B00603BB1 /* ScanBarViewController.m */,
 				F5ACD3B81A8C91D300603BB1 /* ShowBarViewController.h */,
 				F5ACD3B91A8C91D300603BB1 /* ShowBarViewController.m */,
+				F5FE78BC1AA58AA000B9E3E9 /* ChatViewController.h */,
+				F5FE78BD1AA58AA000B9E3E9 /* ChatViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,6 +338,45 @@
 				F5ACD3C31A8CA04800603BB1 /* User.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F5F7E8471AA8063200B493DE /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				F5F7E8481AA8063200B493DE /* Map */,
+				F5F7E8491AA8063200B493DE /* XHChatListViewController.h */,
+				F5F7E84A1AA8063200B493DE /* XHChatListViewController.m */,
+				F5F7E84B1AA8063200B493DE /* XHChatViewController.h */,
+				F5F7E84C1AA8063200B493DE /* XHChatViewController.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		F5F7E8481AA8063200B493DE /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F5F7E84F1AA8066100B493DE /* XHLocationPickerBaiduMapDataSource.h */,
+				F5F7E8501AA8066100B493DE /* XHLocationPickerBaiduMapDataSource.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F5F7E8521AA8484000B493DE /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				F5F7E8531AA8486700B493DE /* RTHttpClient.h */,
+				F5F7E8541AA8486700B493DE /* RTHttpClient.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		F5F7E8591AA84C1100B493DE /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				F5F7E85A1AA84C3000B493DE /* NetHandler.h */,
+				F5F7E85B1AA84C3000B493DE /* NetHandler.m */,
+			);
+			path = Handler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +430,7 @@
 				TargetAttributes = {
 					F5ACD36D1A8C794E00603BB1 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = R7EKH6S8ZV;
 					};
 					F5ACD3861A8C794E00603BB1 = {
 						CreatedOnToolsVersion = 6.1;
@@ -388,18 +515,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F7E84E1AA8063200B493DE /* XHChatViewController.m in Sources */,
 				F5ACD3C41A8CA04800603BB1 /* User.m in Sources */,
 				F5ACD3A51A8C837900603BB1 /* BaseModel.m in Sources */,
 				F5ACD3BA1A8C91D300603BB1 /* ShowBarViewController.m in Sources */,
-				F5ACD37A1A8C794E00603BB1 /* ViewController.m in Sources */,
+				F5F7E8511AA8066100B493DE /* XHLocationPickerBaiduMapDataSource.m in Sources */,
+				F5F7E8551AA8486700B493DE /* RTHttpClient.m in Sources */,
 				F5ACD3771A8C794E00603BB1 /* AppDelegate.m in Sources */,
 				F5ACD3741A8C794E00603BB1 /* main.m in Sources */,
 				F5ACD3C01A8C9E7500603BB1 /* AppUtiles.m in Sources */,
 				F5ACD39D1A8C815100603BB1 /* MyNavigationBar.m in Sources */,
+				F5F7E85C1AA84C3000B493DE /* NetHandler.m in Sources */,
 				F5ACD3A61A8C837900603BB1 /* BaseViewController.m in Sources */,
 				F5ACD39E1A8C815100603BB1 /* UserDefaultsUtils.m in Sources */,
 				F5ACD3AD1A8C875B00603BB1 /* ScanBarViewController.m in Sources */,
+				F5F7E84D1AA8063200B493DE /* XHChatListViewController.m in Sources */,
 				F5ACD3BD1A8C9BC000603BB1 /* QRCodeGenerator.m in Sources */,
+				F5F7E8581AA84B5300B493DE /* BaseHandler.m in Sources */,
+				F5FE78BE1AA58AA000B9E3E9 /* ChatViewController.m in Sources */,
 				F5ACD3AA1A8C83DC00603BB1 /* BuildBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +656,7 @@
 			baseConfigurationReference = B29DE86D5B9AB55084D15167 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = Bar/PrefixHeader.pch;
 				INFOPLIST_FILE = Bar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -536,6 +670,7 @@
 			baseConfigurationReference = CCA84276BFE0A504480DD69B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = Bar/PrefixHeader.pch;
 				INFOPLIST_FILE = Bar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

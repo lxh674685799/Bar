@@ -79,4 +79,5 @@
 
 + (BOOL)date:(NSDate*)date isBetweenDate:(NSDate*)beginDate andDate:(NSDate*)endDate;
 
++(UIImage *)createImageWithColor:(UIColor *)color;
 @end

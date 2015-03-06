@@ -8,10 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+// 引用 IMKit 头文件。
+#import "RCIM.h"
+// 引用 百度地图 头文件。
+#import "BMapKit.h"
+
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate,BMKGeneralDelegate,RCIMFriendsFetcherDelegate, RCIMUserInfoFetcherDelegagte, RCIMGroupInfoFetcherDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) BMKMapManager *mapManager;
 
 @end
 

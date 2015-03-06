@@ -4,12 +4,32 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Baidu-Maps-iOS-SDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RongCloudIMKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>180F96089AE316972F478E4F</key>
+		<key>00531C1B70172DE34FD56A51</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>23FDFE902A52A70BCBD12AA7</key>
+		<key>2CA3336C5BE194BAA6F2BD25</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>360F88E539E2FD711C2B71D6</key>
+		<key>52B8F28FD4A6A56613F02E53</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>64992A4BC7A9C88C1B72B782</key>
+		<key>59FA88E469B8D8166FB56A7E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9AC57ADE66EC3ECCEBB81DD9</key>
+		<key>7E4917E3D8F3550EAB9435AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BAE349F09A18956B74B8BC46</key>
+		<key>B2A74AD2FA7C57FC8BE62336</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7C31586CF73AC8C99F1EC38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B909A465C4D651FE8AF9F448</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC6A365E404AA53321DD4797</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E03D32691044327FB1034C45</key>
 		<dict>
 			<key>primary</key>
 			<true/>

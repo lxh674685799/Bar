@@ -4,44 +4,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--扫描二维码-->
-        <scene sceneID="ih5-LL-1Xr">
-            <objects>
-                <viewController id="MzQ-bo-Cr5" customClass="ScanBarViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ga3-xl-8dV"/>
-                        <viewControllerLayoutGuide type="bottom" id="Nto-7f-ITC"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5hJ-Cx-aWK">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="扫描二维码" id="CiT-3G-R78"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lQb-z1-FnR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1107" y="1486"/>
-        </scene>
-        <!--生成二维码-->
-        <scene sceneID="o2p-T9-wax">
-            <objects>
-                <viewController id="kHq-Gf-ugb" customClass="BuildBarViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Wpo-Y7-Zav"/>
-                        <viewControllerLayoutGuide type="bottom" id="d52-4c-QAl"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="lOu-Nh-UsK">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="生成二维码" id="6ND-O9-2it"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WvR-zu-Lgs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1107" y="642"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="g1H-1D-V4C">
             <objects>
@@ -53,13 +15,125 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="kHq-Gf-ugb" kind="relationship" relationship="viewControllers" id="rBn-ea-mpZ"/>
-                        <segue destination="MzQ-bo-Cr5" kind="relationship" relationship="viewControllers" id="vOj-xE-UIu"/>
+                        <segue destination="kRN-lm-wkO" kind="relationship" relationship="viewControllers" id="jp1-BY-6Bk"/>
+                        <segue destination="k8b-yW-hDf" kind="relationship" relationship="viewControllers" id="ilT-On-QCt"/>
+                        <segue destination="y1b-TO-mCQ" kind="relationship" relationship="viewControllers" id="amm-nu-Zv2"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CPP-CT-hyJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="290" y="1060"/>
+            <point key="canvasLocation" x="-902" y="1080"/>
+        </scene>
+        <!--融云聊天-->
+        <scene sceneID="WWd-lx-Qqx">
+            <objects>
+                <navigationController id="y1b-TO-mCQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="融云聊天" id="Kfi-aa-1yt"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qx5-tp-bjF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="JzR-si-Pwx">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="Jci-ar-DJH" kind="relationship" relationship="rootViewController" id="09o-M7-H53"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rji-Xk-POv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="236" y="1824"/>
+        </scene>
+        <!--生成二维码-->
+        <scene sceneID="8zX-em-Rhw">
+            <objects>
+                <viewController id="Sgp-pR-rDd" customClass="BuildBarViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CCZ-YB-qQJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xg1-3m-nf2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VJn-hS-QNG">
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="生成二维码" id="ywR-2k-fnW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xrB-tW-Lef" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1320" y="338"/>
+        </scene>
+        <!--生成二维码-->
+        <scene sceneID="ggb-c8-oRq">
+            <objects>
+                <navigationController id="kRN-lm-wkO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="生成二维码" id="RT4-e3-1Yf"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qTh-ZT-Ic2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Sgp-pR-rDd" kind="relationship" relationship="rootViewController" id="VN7-HU-ifo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tUD-0m-0LR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="236" y="332"/>
+        </scene>
+        <!--扫描二维码-->
+        <scene sceneID="vum-Yw-dbF">
+            <objects>
+                <viewController id="fsT-jq-gnR" customClass="ScanBarViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xph-aS-ISS"/>
+                        <viewControllerLayoutGuide type="bottom" id="8bF-yh-TNC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t7A-Ux-kl8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="扫描二维码" id="MKA-i5-GWx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUJ-7c-5x6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1320" y="1096"/>
+        </scene>
+        <!--融云聊天-->
+        <scene sceneID="1Rw-LZ-gGR">
+            <objects>
+                <viewController id="Jci-ar-DJH" customClass="ChatViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eA3-at-5J4"/>
+                        <viewControllerLayoutGuide type="bottom" id="S1I-B6-8N6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Nw-L6-TId">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="融云聊天" id="frk-Xb-oxs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kak-Ak-gEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1320" y="1824"/>
+        </scene>
+        <!--扫描二维码-->
+        <scene sceneID="o9l-Zq-aJR">
+            <objects>
+                <navigationController id="k8b-yW-hDf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="扫描二维码" id="3Bb-4j-jUS"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lz2-G1-LDU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fsT-jq-gnR" kind="relationship" relationship="rootViewController" id="MBc-PC-5Lf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qtq-1N-mD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="236" y="1088"/>
         </scene>
     </scenes>
 </document>

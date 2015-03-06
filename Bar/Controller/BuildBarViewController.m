@@ -30,11 +30,6 @@
 
 
 -(void)initView{
-    MyNavigationBar *navigation = [[MyNavigationBar alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, NavHeight) withTitle:@"生成二维码" withLeftTitle:nil withRightTitle:nil withLeftBtnHidden:NO withRightBtnHidden:NO];
-    self.navigatinBar = navigation;
-    self.navigatinBar.delegate = self;
-    [self.view addSubview:self.navigatinBar];
-    
     UILabel *lable = [[UILabel alloc]initWithFrame:CGRectMake(5, NavHeight, 80, 40)];
     lable.text = @"姓名:";
     UILabel *lable1 = [[UILabel alloc]initWithFrame:CGRectMake(5, NavHeight+40, 80, 40)];

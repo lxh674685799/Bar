@@ -21,11 +21,20 @@
 #import "IQKeyboardManager.h"
 #import "IQSegmentedNextPrevious.h"
 #import "AppUtiles.h"
+//融云
+#import "RCIM.h"
+#import "RCIMClient.h"
+
 #endif
 
 #ifdef DEBUG
 # define CLog(format, ...) NSLog((@"[文件名:%s]" "[函数名:%s]" "[行号:%d]" format), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
 #else
 # define CLog(...);
+#endif
 
+#ifdef DEBUG
+#define DebugLog( fmt, ... ) NSLog( @"[%@:(%d)] %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(fmt), ##__VA_ARGS__] )
+#else
+#define DebugLog( fmt, ... )
 #endif

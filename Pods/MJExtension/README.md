@@ -26,23 +26,29 @@ The fastest and most convenient conversion between JSON and model
     * 导入主头文件：`#import "MJExtension.h"`
 ```objc
 MJExtension.h
-MJConst.h		MJConst.m
-MJFoundation.h		MJFoundation.m
-MJIvar.h		MJIvar.m
-MJType.h		MJType.m
-NSObject+MJCoding.h	NSObject+MJCoding.m
-NSObject+MJIvar.h	NSObject+MJIvar.m
-NSObject+MJKeyValue.h	NSObject+MJKeyValue.m
+MJConst.h               MJConst.m
+MJFoundation.h          MJFoundation.m
+MJIvar.h                MJIvar.m
+MJType.h                MJType.m
+NSObject+MJCoding.h     NSObject+MJCoding.m
+NSObject+MJIvar.h       NSObject+MJIvar.m
+NSObject+MJKeyValue.h   NSObject+MJKeyValue.m
 ```
 
 ## 最简单的字典转模型
 ```objc
+typedef enum {
+    SexMale,
+    SexFemale
+} Sex;
+
 @interface User : NSObject
 @property (copy, nonatomic) NSString *name;
 @property (copy, nonatomic) NSString *icon;
 @property (assign, nonatomic) int age;
 @property (assign, nonatomic) double height;
 @property (strong, nonatomic) NSNumber *money;
+@property (assign, nonatomic) Sex sex;
 @end
 
 NSDictionary *dict = @{
@@ -50,15 +56,16 @@ NSDictionary *dict = @{
                @"icon" : @"lufy.png",
                @"age" : @20,
                @"height" : @"1.55",
-               @"money" : @100.9
+               @"money" : @100.9,
+               @"sex" : @(SexFemale)
             };
 
 // 将字典转为User模型
 User *user = [User objectWithKeyValues:dict];
 
-NSLog(@"name=%@, icon=%@, age=%d, height=%f, money=%@", 
-	user.name, user.icon, user.age, user.height, user.money);
-// name=Jack, icon=lufy.png, age=20, height=1.550000, money=100.9
+NSLog(@"name=%@, icon=%@, age=%d, height=%@, money=%@, sex=%d", 
+	user.name, user.icon, user.age, user.height, user.money, user.sex);
+// name=Jack, icon=lufy.png, age=20, height=1.550000, money=100.9, sex=1
 ```
 ##### 核心代码
 * `[User objectWithKeyValues:dict]`
@@ -76,15 +83,12 @@ NSLog(@"name=%@, icon=%@, age=%d, height=%f, money=%@",
 
 NSDictionary *dict = @{
                @"text" : @"是啊，今天天气确实不错！",
-               
                @"user" : @{
                    @"name" : @"Jack",
                    @"icon" : @"lufy.png"
                 },
-               
                @"retweetedStatus" : @{
                    @"text" : @"今天天气真不错！",
-                   
                    @"user" : @{
                        @"name" : @"Rose",
                        @"icon" : @"nami.png"
@@ -140,35 +144,29 @@ NSDictionary *dict = @{
                        @"statuses" : @[
                            @{
                                @"text" : @"今天天气真不错！",
-                               
                                @"user" : @{
                                    @"name" : @"Rose",
                                    @"icon" : @"nami.png"
                                }
                             },
-                           
                            @{
                                @"text" : @"明天去旅游了",
-                               
                                @"user" : @{
                                    @"name" : @"Jack",
                                    @"icon" : @"lufy.png"
                                }
                             }
                         ],
-                       
                        @"ads" : @[
                            @{
                                @"image" : @"ad01.png",
                                @"url" : @"http://www.ad01.com"
                            },
-                           
                            @{
                                @"image" : @"ad02.png",
                                @"url" : @"http://www.ad02.com"
                            }
                        ],
-                       
                        @"totalNumber" : @"2014"
                     };
 
@@ -240,13 +238,13 @@ NSDictionary *dict = @{
                                 @"nameChangedTime" : @"2013-08"
                             }
                        },
-	               @"other" : @{
+                       @"other" : @{
                             @"bag" : @{
                                 @"name" : @"小书包",
                                 @"price" : @100.7
                             }
-	               }
-                    };
+                       }
+                   };
 
 // 将字典转为Student模型
 Student *stu = [Student objectWithKeyValues:dict];
@@ -269,7 +267,6 @@ NSArray *dictArray = @[
                            @"name" : @"Jack",
                            @"icon" : @"lufy.png",
                         },
-                       
                        @{
                            @"name" : @"Rose",
                            @"icon" : @"nami.png",

@@ -47,7 +47,9 @@ install_resource()
       ;;
   esac
 }
-          install_resource "IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle"
+          install_resource "Baidu-Maps-iOS-SDK/mapapi.bundle"
+                    install_resource "IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle"
+                    install_resource "RongCloudIMKit/iOS_IMKit_v_1_3_4/RongCloud.bundle"
                     install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
                     install_resource "ZBarSDK/iphone/res/zbar-back.png"
                     install_resource "ZBarSDK/iphone/res/zbar-help.html"

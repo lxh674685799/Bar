@@ -36,12 +36,20 @@
 #pragma mark - 本地文件存储路径 -
 #define DOCUMENT_CACHE [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0]
 
-#pragma mark - 百度地图秘钥-
-#define BAIDUMAPKEY @"rQkVpn6HSak9VS3ozd08lHOq"
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
 
 //计算旋转角度
 #define degreeTOradians(x) (M_PI * (x)/180);
 
-#pragma mark - 接口数据 -
+#pragma mark - 服务器地址 -
+#define SERVER_HOST @"api.cn.rong.io"
+
+#pragma mark - 百度地图秘钥-
+#define BAIDUMAPKEY @"O5qGyY00UOIOMq2eGqAs9z2W"
+#pragma mark - 融云秘钥-
+#define RCIMKEY @"k51hidwq1fjnb"
+#pragma mark - 融云用户请求-
+#define USER_URL @"https://api.cn.rong.io/user/checkOnline.json"
 
 #endif

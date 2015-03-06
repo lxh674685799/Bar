@@ -30,10 +30,7 @@
 }
 
 -(void)initView{
-    MyNavigationBar *navigation = [[MyNavigationBar alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, NavHeight) withTitle:@"扫描二维码" withLeftTitle:nil withRightTitle:nil withLeftBtnHidden:NO withRightBtnHidden:NO];
-    self.navigatinBar = navigation;
-    self.navigatinBar.delegate = self;
-    [self.view addSubview:self.navigatinBar];
+
 }
 
 
